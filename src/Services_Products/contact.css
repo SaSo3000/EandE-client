@@ -1,0 +1,275 @@
+#mainbody3{
+    position: absolute;
+    top: 670px;
+    margin-left: 5%;
+    background-color: rgb(12, 65, 157);
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 360px;
+    padding-right: 360px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(104, 80, 183);
+    border-radius: 10px;
+    height: 600px;
+    
+}
+
+
+#h23{
+    position: relative;
+    top:35px;
+    color: rgb(255, 255, 255);
+    font-family:monospace;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+#logo3{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    left: 230px;
+    border: 2px solid white;
+    border-radius: 2px;
+    
+}
+
+#p3{
+position: relative;
+top: 80px;
+color: rgb(255, 255, 255);
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#p13{
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+#button3{
+    position: relative;
+    top:120px;
+    left: 160px;
+    height: 60px;
+    width: 300px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    background-color: rgb(216, 19, 22);
+    border: rgb(85, 8, 227);
+    border-radius: 5%;
+    font-variant: small-caps;
+}
+
+#button3:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 4px 10px silver;
+    cursor: pointer;
+}
+
+.img{
+    position: relative;
+    top: 120px;
+    left: 90px;
+    height: 190px;
+    width: 230px;
+    margin-bottom: 27px;
+    border: 1px solid red;
+    border-radius: 20%;
+}
+.callp{
+    position: relative;
+    top: 90px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    left: 80px;
+    background: rgba(0, 0, 0, 0.818);
+    color: white;
+    width: 145px;
+    font-family:monospace;
+    font-size: 18px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid rgba(255, 255, 255, 0.388);
+    border-right: 4px solid white;
+    border-radius: 1%;
+    box-shadow: 0px 10px 17px 3px black;
+}
+
+
+.img1{
+    position: relative;
+    top: 120px;
+    left: 370px;
+    height: 180px;
+    width: 230px;
+    margin-bottom: 35px;
+    border: 1px solid red;
+    border-radius: 20%;
+}
+.callp1{
+    position: relative;
+    top: 90px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 90px;
+    left: 330px;
+    background: rgba(0, 0, 0, 0.826);
+    color: white;
+    width: 160px;
+    font-family:monospace;
+    font-size: 18px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid rgba(255, 255, 255, 0.388);
+    border-right: 4px solid white;
+    border-radius: 1%;
+    box-shadow: 0px 10px 17px 3px black;
+}
+
+
+.img2{
+    position: relative;
+    top: 120px;
+    left: 600px;
+    height: 180px;
+    width: 230px;
+    margin-bottom: 37px;
+    border: 1px solid red;
+    border-radius: 20%;
+}
+.callp2{
+    position: relative;
+    top: 90px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 40px;
+    left: 530px;
+    background: rgba(0, 0, 0, 0.852);
+    color: white;
+    width: 300px;
+    height: 90px;
+    font-family:monospace;
+    font-size: 18px;
+    border-bottom: 4px solid white;
+    border-left: 4px solid rgba(255, 255, 255, 0.388);
+    border-right: 4px solid white;
+    border-radius: 1%;
+    box-shadow: 0px 10px 17px 3px black;
+}
+
+
+.contact{
+    position: absolute;
+    top: 90px;
+    height: 900px;
+    width: 1500px;
+    display: flex;
+    align-content: space-around;
+    background-color: rgba(236, 9, 9, 0.682);
+    border-radius: 15%;
+}
+
+@media screen and (max-width: 600px){
+
+    .contact{
+        display:flex;
+        position: absolute;
+        right: 0.5px;
+        width: 100%;
+        height: 1400px;
+    }
+
+    #call{
+        display: block;
+        position:absolute;
+        right: 80%;
+        height: 50px;
+        width: 60px;
+    }
+    #email{
+        display: block;
+        position:absolute;
+        right: 85%;
+        top: 30%;
+    }
+    #Address{
+        display: block;
+        position:absolute;
+        right: 115%;
+        top: 60%;
+    }
+
+    #mainbody3
+    {
+        position: absolute;
+        top: 1470px;
+        margin-right: 6%;
+        background-color: rgb(12, 65, 157);
+        align-items: center;
+        padding-top: 10px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom: 20px;
+        border: 1px solid rgb(104, 80, 183);
+        border-radius: 10px;
+        height: 600px;
+        margin-bottom: 30px;
+    }
+    
+    
+    #h23{
+        position: relative;
+        top:35px;
+        color: rgb(255, 255, 255);
+        font-family:monospace;
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        font-size: 15px;
+    }
+    
+    #logo3{
+        position: relative;
+        height: 70px;
+        width: 90px;
+        left: 110px;
+        border: 2px solid white;
+        border-radius: 2px;
+        
+    }
+    
+    #p3{
+    position: relative;
+    top: 80px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    #p13{
+        letter-spacing: 2px;
+        word-spacing: 1px;
+        font-size: 10px;
+    }
+    
+    #button3{
+        position: relative;
+        top:180px;
+        left: 85px;
+        height: 50px;
+        width: 150px;
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        background-color: rgb(216, 19, 22);
+        border: rgb(85, 8, 227);
+        border-radius: 5%;
+        font-variant: small-caps;
+    }
+    
+    #button3:hover{
+        transition-duration: 1s;
+        box-shadow: 0px 4px 10px silver;
+        cursor: pointer;
+    }
+
+}
