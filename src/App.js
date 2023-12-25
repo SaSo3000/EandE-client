@@ -1,5 +1,6 @@
 import React from "react";
 import {Routes, Route} from "react-router-dom";
+import { Link } from "react-router-dom";
 import './styles.css';
 import About from "./pages/About";
 import Products from "./pages/Products";
@@ -124,18 +125,46 @@ import Ro from "./Services_Products/ro";
 import Fo from "./Services_Products/fo";
 import Contactus from "./pages/Contactus";
 
-<style>
- @import url('https://fonts.googleapis.com/css2?family=Eczar&family=Work+Sans&display=swap');
- </style>
+
 function App() {
+
+  function openSearch() {
+    document.getElementById("searchData").style.display="block";
+  }
+  function closeAll() {
+    document.getElementById("searchData").style.display="none";
+  }
+  function dropdown(){
+    document.getElementById("link5").className = "DropDown";
+  }
+
+  function dropdownHide(){
+    document.getElementById("link5").className = "DropDownHide";
+  }
+
+  function dropdown1(){
+    document.getElementById("link7").className = "DropDown1";
+  }
+
+  function dropdownHide1(){
+    document.getElementById("link7").className = "DropDownHide1";
+  }
+  function openmenu() {
+    document.getElementById("mySidenav").className = "sidenav";
+  }
+  function closemenu() {
+    document.getElementById("mySidenav").className = "noside";
+  }
+  
 return (
   <div>
 
 
           <NavBar />
-      
+         
           <Routes>
               <Route path="/" element={<Home />}/>
+              <Route path="/EandE/" element={<Home />}/>
               <Route path="/about" element={<About />} />
               <Route path="/products" element={<Products />}/>
               <Route path="/services" element={<Services />}/>

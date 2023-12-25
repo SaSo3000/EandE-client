@@ -9,7 +9,7 @@
 
        
         function closeAll() {
-          document.getElementById("mySidenav").style.display="none";
+ 
           document.getElementById("searchData").style.display="none";
           document.getElementById("mySidenav").className = "noside";
         }

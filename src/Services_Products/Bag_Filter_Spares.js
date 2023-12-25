@@ -149,7 +149,7 @@ const Bag_Filter_Spares = () => {
    <p id='FilterBagsP'>GASKET HOPPER HEATER PAD</p>
     </div>
     </Link>
-    <Link to="/M">
+    <Link to="/m">
     <div id='body4'>
    <img src={img19} alt='img' id='FilterBagsImg'/>
    <p id='FilterBagsP'>MANOMETER</p>

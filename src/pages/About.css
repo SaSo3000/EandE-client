@@ -176,8 +176,9 @@ display: none;
     #intro1{
         position: absolute;
         height: 240px;
-        width: 460px;
+        width: 98%;
         top: 30px;
+        left: 0px;
     }
 
     #Logo1{
@@ -228,7 +229,7 @@ display: none;
         color: rgb(255, 255, 255);
         padding: 10px;
         font-size: 15px;
-        width: 95%;
+        width: 94%;
     }
     
     #v2{
@@ -265,7 +266,7 @@ display: none;
         color: rgb(255, 255, 255);
         padding: 10px;
         font-size: 15px;
-        width: 95%;
+        width: 94%;
     }
     
     #footer1{
@@ -280,13 +281,13 @@ display: none;
     }
     #f1{
         font-size: 8px;
-        width: 100%;
-        margin-left: 50px;
+        width: 90%;
+        margin-left: 10px;
     }
     #f2{
         font-size: 10px;
-        width: 100%;
-        margin-left: 15px;
+        width: 90%;
+        margin-left: 35px;
     }
     
 }

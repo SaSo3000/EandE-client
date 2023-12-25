@@ -2,7 +2,7 @@ import React from 'react'
 import "../pages/rough.css"
 import img from "../images/HOPPER LEVEL SWITCH.jpg"
 import logo from "../images/Screenshot 2023-06-20 082831.jpg";
-const hsl3 = () => {
+const HL_S = () => {
   function closeAll() {
     document.getElementById("searchData").style.display="none";
   }
@@ -31,4 +31,4 @@ const hsl3 = () => {
   )
 }
 
-export default hls3
+export default HL_S

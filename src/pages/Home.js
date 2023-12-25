@@ -13,7 +13,6 @@ const Home = () => {
    
     
       function closeAll() {
-        document.getElementById("mySidenav").style.display="none";
         document.getElementById("searchData").style.display="none";
         document.getElementById("mySidenav").className = "noside";
       }
@@ -88,14 +87,14 @@ BASIC ENGINEERING & DETAIL ENGINEERING IN</li><br></br>
                   </li>
                   <div id="liitem1" className={State1 ? "WhenOn" : "WhenOff"}>
                           <ul>
-                            <li id="id4"><Link to="pr1" id="id3">Broad experienced team for Turnkey Projects Erection, Piping, Ducting, Plant Distribution designing etc. of Conversion of Fuel Change Over, IBR & NON IBR Boilers, Thermic Fluid Heaters, Hot Water Generators of all type fuels OIL, GAS & SOLID</Link></li>
-                            <li id="id4"><Link to="pr2" id="id3">Fabricate/supply Self Supported/Wall Supported/ Guy Rope Chimney As per IS 6533 & General Engineering Practise Design  & All type of Fabricated Storage/Service Tanks in MS & SS Vertical/Horizonal/Cylindrical</Link></li>
-                            <li id="id4"><Link to="pr3" id="id3">Supply & Erection of Fuel Handling System Crusher, Vibrator, Elevator etc.</Link></li>
-                            <li id="id4"><Link to="pr4" id="id3">Supply & Erection of Refractory of Solid Fuel Units</Link></li>
-                            <li id="id4"><Link to="pr5" id="id3">Insulation work of Steam Line, Thermic Fluid Line, Air Line, Water Line, Fluegas Ducting </Link></li>
-                            <li id="id4"><Link to="pr6" id="id3">Provide Services in Form of Annual Service Contract ASC & Emergency Breakdown Service, Faster & more competitively priced supply of Recommended/Consumable spares for any of above Heating Products</Link></li>
-                            <li id="id4"><Link to="pr7" id="id3">Audit of Existing/New Steam Lines & Thermic Fluid circuits</Link></li>
-                            <li id="id4"><Link to="pr8" id="id3">Automation Draft Control/Pr. Control/Level Control etc. of all Heating Products & Heat User Process</Link></li>
+                            <li id="id4"><Link to="/pr1" id="id3">Broad experienced team for Turnkey Projects Erection, Piping, Ducting, Plant Distribution designing etc. of Conversion of Fuel Change Over, IBR & NON IBR Boilers, Thermic Fluid Heaters, Hot Water Generators of all type fuels OIL, GAS & SOLID</Link></li>
+                            <li id="id4"><Link to="/pr2" id="id3">Fabricate/supply Self Supported/Wall Supported/ Guy Rope Chimney As per IS 6533 & General Engineering Practise Design  & All type of Fabricated Storage/Service Tanks in MS & SS Vertical/Horizonal/Cylindrical</Link></li>
+                            <li id="id4"><Link to="/pr3" id="id3">Supply & Erection of Fuel Handling System Crusher, Vibrator, Elevator etc.</Link></li>
+                            <li id="id4"><Link to="/pr4" id="id3">Supply & Erection of Refractory of Solid Fuel Units</Link></li>
+                            <li id="id4"><Link to="/pr5" id="id3">Insulation work of Steam Line, Thermic Fluid Line, Air Line, Water Line, Fluegas Ducting </Link></li>
+                            <li id="id4"><Link to="/pr6" id="id3">Provide Services in Form of Annual Service Contract ASC & Emergency Breakdown Service, Faster & more competitively priced supply of Recommended/Consumable spares for any of above Heating Products</Link></li>
+                            <li id="id4"><Link to="/pr7" id="id3">Audit of Existing/New Steam Lines & Thermic Fluid circuits</Link></li>
+                            <li id="id4"><Link to="/pr8" id="id3">Automation Draft Control/Pr. Control/Level Control etc. of all Heating Products & Heat User Process</Link></li>
                           </ul>
                   </div>
                   
@@ -107,9 +106,9 @@ BASIC ENGINEERING & DETAIL ENGINEERING IN</li><br></br>
                   </li>
                   <div id="liitem1" className={State2 ? "WhenOn" : "WhenOff"}>
                           <ul>
-                            <li id="id4"><Link to="pr9" id="id3">Fabricate/Supply MDC, CYCLONE, BAG FILTER, SCRUBBER, ESP (Workshop & Site Fabrication Both) as per required GPCB Norms Fluegas Outlet</Link></li>
-                            <li id="id4"><Link to="pr10" id="id3">Provide Services in Form of Annual Service Contract & Emergency Breakdown Services</Link></li>
-                            <li id="id4"><Link to="pr11" id="id3">Faster & more competitively priced supply of Recommended/Consumable spares for any of above Environment Products</Link></li>
+                            <li id="id4"><Link to="/pr9" id="id3">Fabricate/Supply MDC, CYCLONE, BAG FILTER, SCRUBBER, ESP (Workshop & Site Fabrication Both) as per required GPCB Norms Fluegas Outlet</Link></li>
+                            <li id="id4"><Link to="/pr10" id="id3">Provide Services in Form of Annual Service Contract & Emergency Breakdown Services</Link></li>
+                            <li id="id4"><Link to="/pr11" id="id3">Faster & more competitively priced supply of Recommended/Consumable spares for any of above Environment Products</Link></li>
                             
                           </ul>
                   </div>
@@ -121,9 +120,9 @@ BASIC ENGINEERING & DETAIL ENGINEERING IN</li><br></br>
                   </li>
                   <div id="liitem1" className={State3 ? "WhenOn" : "WhenOff"}>
                           <ul>
-                            <li id="id4"><Link to="pr12" id="id3">Broad Experienced Team for Piping of Softner, RO, DM, ETP & STP</Link></li>
-                            <li id="id4"><Link to="pr13" id="id3">-	Fabrication/Supply of Softner, RO, DM, ETP & STP </Link></li>
-                            <li id="id4"><Link to="pr14" id="id3">-	Faster & more competitively priced supply of Recommended/Consumable spares for any of above All Water Treatment Products</Link></li>
+                            <li id="id4"><Link to="/pr12" id="id3">Broad Experienced Team for Piping of Softner, RO, DM, ETP & STP</Link></li>
+                            <li id="id4"><Link to="/pr13" id="id3">-	Fabrication/Supply of Softner, RO, DM, ETP & STP </Link></li>
+                            <li id="id4"><Link to="/pr14" id="id3">-	Faster & more competitively priced supply of Recommended/Consumable spares for any of above All Water Treatment Products</Link></li>
                            
                           </ul>
                   </div>
@@ -150,7 +149,7 @@ BASIC ENGINEERING & DETAIL ENGINEERING IN</li><br></br>
       <div id="footer">
       <div id='call'>
       
-        <p id="f"><span>&#9990;</span> +91 9978619042</p>
+        <p id="f1"><span>&#9990;</span> +91 9978619042</p>
       
       </div>
       <div id='mail'>

@@ -2,12 +2,10 @@ import React,{useState} from "react";
 import '../styles.css';
 import Data from "../Data.json";
 import searchIcon from "../images/—Pngtree—vector search icon_4139928.png";
-import { Link } from "react-router-dom";
-import imgs from "../images/menu8.png";
+import { Link,NavLink } from "react-router-dom";
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Work+Sans&display=swap');
-</style>
+
+
 
 
 
@@ -22,7 +20,6 @@ const NavBar = () => {
     document.getElementById("searchData").style.display="block";
   }
   function closeAll() {
-    document.getElementById("mySidenav").style.display="none";
     document.getElementById("searchData").style.display="none";
     document.getElementById("mySidenav").className = "noside";
   }
@@ -61,17 +58,25 @@ const NavBar = () => {
 
     <div className="main">
   
-    
     <span id="image90" alt="img" onClick={openmenu}>&#9776;</span>
+          <div id="mySidenav" class="noside">
+      <p id="close" onClick={closemenu}>&#10060;</p>
+        <Link id="sides" className="side" to="/" onClick={closeAll}>Home</Link>
+         <Link id="sides" className="side" to="/about" onClick={closeAll}>About</Link>
+         <Link id="sides" className="side" to="/contactus" onClick={closeAll}>Contact Us</Link>
+         <Link id="sides" className="side" to="/services" onClick={closeAll} onMouseOver={dropdown1} onMouseLeave={dropdownHide1}>Services &#11163;</Link>
+         <Link id="sides" className="side" to="/Products" onClick={closeAll} onMouseOver={dropdown} onMouseLeave={dropdownHide}>Products &#11163;</Link>
+    </div>
+    
  
 
       <div className="header">
 
-      <Link id="link1" className="link1" to="/" onClick={closeAll}>Home</Link>
-         <Link id="link2"  className="link2"  to="/about" onClick={closeAll}>About</Link>
-         <Link id="link10" className="link10" to="/contactus" onClick={closeAll}>Contact Us</Link>
-         <Link id="link3" className="link3" to="/services" onClick={closeAll} onMouseOver={dropdown1} onMouseLeave={dropdownHide1}>Services &#11163;</Link>
-         <Link id="link4" to="/Products" className="link4" onClick={closeAll} onMouseOver={dropdown} onMouseLeave={dropdownHide}>Products &#11163;</Link>
+      <NavLink id="link1" className="link1" to="/" onClick={closeAll}>Home</NavLink>
+         <NavLink id="link2"  className="link2"  to="/about" onClick={closeAll}>About</NavLink>
+         <NavLink id="link10" className="link10" to="/contactus" onClick={closeAll}>Contact Us</NavLink>
+         <NavLink id="link3" className="link3" to="/services" onClick={closeAll} onMouseOver={dropdown1} onMouseLeave={dropdownHide1}>Services &#11163;</NavLink>
+         <NavLink id="link4" to="/Products" className="link4" onClick={closeAll} onMouseOver={dropdown} onMouseLeave={dropdownHide}>Products &#11163;</NavLink>
          
       
          
@@ -121,14 +126,7 @@ const NavBar = () => {
           <Link to="pr8" onClick={closeAll} className="link8">Automation Draft Control/Pr. Control/Level Control etc. of all Heating Products & Heat User Process</Link>
           </div>
 
-      <div id="mySidenav" class="noside">
-      <p id="close" onClick={closemenu}>&#10060;</p>
-        <Link id="sides" className="side" to="/" onClick={closeAll}>Home</Link>
-         <Link id="sides" className="side" to="/about" onClick={closeAll}>About</Link>
-         <Link id="sides" className="side" to="/contactus" onClick={closeAll}>Contact Us</Link>
-         <Link id="sides" className="side" to="/services" onClick={closeAll} onMouseOver={dropdown1} onMouseLeave={dropdownHide1}>Services &#11163;</Link>
-         <Link id="sides" className="side" to="/Products" onClick={closeAll} onMouseOver={dropdown} onMouseLeave={dropdownHide}>Products &#11163;</Link>
-    </div>
+      
 
            </div>
       

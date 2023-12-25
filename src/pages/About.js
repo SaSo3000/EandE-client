@@ -3,35 +3,12 @@ import "./About.css";
 import Logo from "../images/Screenshot 2023-06-20 082831.jpg";
 function About() {
 
-   function openSearch() {
-      document.getElementById("searchData").style.display="block";
-    }
+ 
     function closeAll() {
-      document.getElementById("mySidenav").style.display="none";
       document.getElementById("searchData").style.display="none";
       document.getElementById("mySidenav").className = "noside";
     }
-    function dropdown(){
-      document.getElementById("link5").className = "DropDown";
-    }
-  
-    function dropdownHide(){
-      document.getElementById("link5").className = "DropDownHide";
-    }
-  
-    function dropdown1(){
-      document.getElementById("link7").className = "DropDown1";
-    }
-  
-    function dropdownHide1(){
-      document.getElementById("link7").className = "DropDownHide1";
-    }
-    function openmenu() {
-      document.getElementById("mySidenav").className = "sidenav";
-    }
-    function closemenu() {
-      document.getElementById("mySidenav").className = "noside";
-    }
+    
 
     return(
  <div id="main3" onClick={closeAll}>

@@ -2,7 +2,7 @@ import React from 'react'
 import "../pages/rough.css"
 import img from "../images/temp sensor.jpg"
 import logo from "../images/Screenshot 2023-06-20 082831.jpg";
-const TS = () => {
+const Ts2 = () => {
   function closeAll() {
     document.getElementById("searchData").style.display="none";
   }
@@ -10,7 +10,7 @@ const TS = () => {
   return (
     <div onMouseDown={closeAll}>    
       <div id='body'>
-      <h1 id='h1'>TEMPERATURE SWITCH</h1>
+      <h1 id='h1'>TEMP. SENSORS</h1>
       <img id='img4' src={img}/>
     </div>
 
@@ -31,4 +31,4 @@ const TS = () => {
   )
 }
 
-export default TS
+export default Ts2

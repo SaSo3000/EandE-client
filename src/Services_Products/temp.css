@@ -69,7 +69,7 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
 
 #footer{
     position: relative;
-    top: 700px;
+    top: 930px;
     right: 6px;
     bottom: 3px;
     background-color: black;
@@ -109,7 +109,7 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
     }
     #mail{
         margin-left: 120px;
-        
+        margin-right: 10px;
     }
     #call{
         margin-right: 20px;
@@ -149,7 +149,7 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
         position: relative;
         height: 70px;
         width: 90px;
-        left: 110px;
+        left: 80px;
         border: 2px solid white;
         border-radius: 2px;
         
@@ -172,7 +172,7 @@ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ox
     #button2{
         position: relative;
         top:180px;
-        left: 85px;
+        left: 55px;
         height: 50px;
         width: 150px;
         color: white;
